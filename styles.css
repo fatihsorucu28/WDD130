@@ -1,17 +1,43 @@
 /* CSS for main element */
 main {
-    max-width: 800px; /* Set a maximum width for the main content */
-    margin: 0 auto; /* Center the main content horizontally */
+    max-width: 800px;
+  }
+  
+  /* CSS for nav element */
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* CSS for nav anchor elements */
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* CSS for heading 1 */
+  h1 {
+    color: #333;
   }
   
   /* CSS for aside element */
   aside {
-    width: 30%; /* Set the width of the aside */
-    margin: 20px; /* Add margin to the aside */
-    border: 1px solid #ccc; /* Add a border to the aside */
-    padding: 10px; /* Add padding to the aside */
-    background-color: #f7f7f7; /* Set background color for the aside */
-    color: #333; /* Set text color for the aside */
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f7f7f7;
+    color: #333;
+    text-align: center;
+  }
+  /* CSS for aside image */
+  aside img {
+    width: 200px; /* Make the image fill its container */
+    height: auto;
+    display: block; /* Remove any extra spacing below the image */
+    margin-bottom: 10px; /* Add some space below the image */
   }
   
   /* Set width and height for main profile image */
@@ -27,8 +53,8 @@ main {
   
   /* CSS for footer element */
   footer {
-    margin-top: 20px; /* Add top margin to separate from main content */
-    border-top: 1px solid #ccc; /* Add a top border to the footer */
-    text-align: center; /* Align text in the center of the footer */
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
   }
   
