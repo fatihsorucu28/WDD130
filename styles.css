@@ -1,0 +1,34 @@
+/* CSS for main element */
+main {
+    max-width: 800px; /* Set a maximum width for the main content */
+    margin: 0 auto; /* Center the main content horizontally */
+  }
+  
+  /* CSS for aside element */
+  aside {
+    width: 30%; /* Set the width of the aside */
+    margin: 20px; /* Add margin to the aside */
+    border: 1px solid #ccc; /* Add a border to the aside */
+    padding: 10px; /* Add padding to the aside */
+    background-color: #f7f7f7; /* Set background color for the aside */
+    color: #333; /* Set text color for the aside */
+  }
+  
+  /* Set width and height for main profile image */
+  main img {
+    width: 150px;
+    height: auto;
+  }
+  
+  /* Set padding for paragraph inside main */
+  main p {
+    padding: 0;
+  }
+  
+  /* CSS for footer element */
+  footer {
+    margin-top: 20px; /* Add top margin to separate from main content */
+    border-top: 1px solid #ccc; /* Add a top border to the footer */
+    text-align: center; /* Align text in the center of the footer */
+  }
+  
