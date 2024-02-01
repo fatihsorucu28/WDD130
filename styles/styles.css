@@ -1,54 +1,74 @@
-/* CSS for main element */
-main {
-  max-width: 800px;
-  margin: 0 auto; /* Center the main content */
+/* CSS for header, footer, and .grid selector */
+header, .grid, footer {
+  max-width: 840px;
+  margin: 0 auto;
 }
 
 /* CSS for nav element */
 nav {
-  background-color: #333;
-  padding: 10px;
-  text-align: center;
+  background-color: steelblue;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /* CSS for nav anchor elements */
 nav a {
-  color: white;
+  display: block;
+  padding: 0.5rem;
   text-decoration: none;
-  margin: 0 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
 }
 
-/* CSS for heading 1 */
+/* CSS for heading 1 with bottom border */
 h1 {
   color: #333;
-  text-align: center; /* Center the heading */
+  text-align: center;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+/* CSS for .grid selector */
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+/* CSS for main element */
+main {
+  grid-column: 2/3;
+  margin: 1rem;
 }
 
 /* CSS for aside element */
 aside {
   width: 20rem;
-  margin: 1rem;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
   border: 1px solid #ccc;
   padding: 10px;
   background-color: #f7f7f7;
   color: #333;
   text-align: center;
-  position: relative; /* Add relative positioning */
 }
 
 /* CSS for aside image */
 aside img {
-  width: 100%; /* Make the image fill its container */
+  width: 100%;
   height: auto;
-  display: block; /* Remove any extra spacing below the image */
-  margin-bottom: 10px; /* Add some space below the image */
+  display: block;
+  margin-bottom: 10px;
 }
 
 /* Set width and height for main profile image */
 main img {
   width: 150px;
   height: auto;
-  float: right; /* Float the image to the right */
+  float: right;
 }
 
 /* Set padding for paragraph inside main */
