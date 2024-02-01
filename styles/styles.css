@@ -39,6 +39,8 @@ h1 {
 
 /* CSS for main element */
 main {
+  display: grid;
+  align-items: center;
   grid-column: 2/3;
   margin: 1rem;
 }
