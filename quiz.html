@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+
+<h1>HTML and CSS Quiz</h1>
+<div class="container">
+    <form action="#" method="post">
+        <div class="question">
+            <label for="q1">Question 1: What's your favorite food?</label>
+            <input type="text" id="q1" name="q1" required>
+        </div>
+
+        <div class="question">
+            <label for="q2">Question 2: Why is it your favorite food?</label>
+            <textarea id="q2" name="q2" rows="4" cols="50" required></textarea>
+        </div>
+
+        <div class="question">
+            <label for="q3">Question 3: What do you use the most with your food?</label>
+            <select id="q3" name="q3" required>
+                <option value="" selected disabled>Choose one...</option>
+                <option value="a">Hot Sauce</option>
+                <option value="b">Ketchup</option>
+                <option value="c">Mayonnaise</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <label for="q4">Question 4: What is the answer for this question?</label>
+            <p class="math-formula">f(x) = 2x - 3</p>
+            <input type="number" id="q4" name="q4" required>
+        </div>
+
+        <button type="submit">Submit Quiz</button>
+    </form>
+</div>
+</body>
+</html>

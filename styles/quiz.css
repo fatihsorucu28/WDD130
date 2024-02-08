@@ -1,0 +1,75 @@
+/* styles/quiz.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background color */
+    color: #222; /* Dark text color */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 400px;
+    background-color: #f5f5f5; /* Light gray background color */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222; /* Dark text color */
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #666; /* Dark gray text color */
+}
+
+input[type="text"],
+textarea,
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd; /* Light gray border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: #f9f9f9; /* Light gray background color */
+    color: #222; /* Dark text color */
+}
+
+button {
+    background-color: #007bff; /* Primary blue color for button */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.math-formula {
+    font-style: italic;
+}
