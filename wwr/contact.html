@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <title>Contact Us - Rafting Company</title>
+</head>
+
+<body>
+    <header>
+        <!-- Logo -->
+        <img src="images/logo.png" style="margin-left: 5em; width: 10em; height: auto;"alt="Rafting Company Logo">
+
+        <!-- Navigation -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero">
+            <!-- Hero Image -->
+            <img src="images/contact-us.jpg" alt="Contact Us">
+
+            <!-- Contact Information -->
+            <article>
+                <h1>Contact Us</h1>
+                <p>If you have any questions or inquiries, feel free to get in touch with us!</p>
+            </article>
+        </div>
+
+        <!-- Contact Form Section -->
+        <section style="display: flex; justify-content: center;">
+            <h2>Send us a Message</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="purpose">Purpose of Message:</label>
+                <select id="purpose" name="purpose">
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Reservation Question">Reservation Question</option>
+                    <option value="Website Suggestion">Website Suggestion</option>
+                </select>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <label for="subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe" checked>
+                    Please subscribe me to the monthly newsletter
+                </label>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Copyright and Social Media Links -->
+        <p>&copy; 2024 Rafting Adventure Co. | Created by Fatih Sorucu</p>
+
+        <!-- Social Media Links -->
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/Facebook_Logo_2023.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/174855.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

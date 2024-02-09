@@ -56,3 +56,9 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-bg-color);
 }
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+  }

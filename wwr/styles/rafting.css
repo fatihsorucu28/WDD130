@@ -90,7 +90,7 @@ footer {
   color: #fff;
   text-align: center;
   padding: 10px 0;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -112,4 +112,37 @@ footer {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+
+/* Additional CSS for centering the form */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background-color: #396e94;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+form button:hover {
+  background-color: #2a4d66;
 }
